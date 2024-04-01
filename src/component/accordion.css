@@ -1,0 +1,54 @@
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  padding: 20px 24px;
+  padding-right: 48px;
+  cursor: pointer;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  display: flex;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ced4da;
+}
+
+.title,
+.icon {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.text {
+  /* grid-column: 2 / -1; */
+  padding-bottom: 16px;
+  line-height: 1.6;
+  text-align: start;
+  padding-left: 5rem;
+}
+
+.text ul {
+
+  color: #868686;
+  margin-right: 16px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ques {
+  font-weight: bold;
+}
